@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #444;
+    height: 100px;
+}
+
+nav {
+    width: 950px;
+    margin: 0 auto;
+}
+
+nav img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* MAIN */
+
+main {
+    width: 960px;
+    margin: 30px auto;
+}
+
+main li {
+    float: left;
+    margin: 30px 30px 30px 0;
+}
+
+main li:last-child {
+    margin-right: 0;
+}
+
+/* MAIN - FEATURED SECTION */
+
+section img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+section div {
+    width: calc(50% - 30px);
+    float: left;
+}
+
+section h2 {
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+section p {
+    font-style: italic;
+    line-height: 20px;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+section button {
+    border: none;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+section button:hover {
+    background: #444;
+}
+
+/* FOOTER */
+
+footer {
+    clear: both;
+    background: #444;
+    height: 100px;
+}
